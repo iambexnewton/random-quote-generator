@@ -83,9 +83,11 @@ let quotes = [
   },
 ];
 
-function displayQuote(number) {
-  console.log(quotes[number].quote);
-  console.log(quotes[number].author);
-}
+let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
-displayQuote(6);
+//function displayQuote(number) {
+//console.log(quotes[number].quote);
+//console.log(quotes[number].author);
+//}
+
+console.log(randomQuote);
