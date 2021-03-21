@@ -83,7 +83,7 @@ let quotes = [
   },
 ];
 
-let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+let randomQuote = quotes[Math.floor(Math.random())];
 
 //function displayQuote(number) {
 //console.log(quotes[number].quote);
